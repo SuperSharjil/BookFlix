@@ -1,0 +1,7 @@
+cd server
+npm init -y
+npm install mongodb express cors dotenv nodemon
+
+cd ../client
+npm create-react-app ./
+npm install bootstrap react-router-dom

@@ -1,0 +1,18 @@
+Frontend
+---------------------------
+- Add frontend page in "client/src/components"
+	e.g. Register page is "client/src/components/Register.js"
+
+- Import that page's function in "client/src/App.js"
+	e.g. import Register from "./components/Register";
+
+- Add the route in "client/src/App.js"
+	e.g. <Route path="/register" exact element={<Register />} />
+
+Backend
+----------------------------
+- Add corresponding backend code in "server/routes"
+	e.g. Register backend code is in "server/routes/register.js"
+
+- import that route in "server/index.js"
+	e.g  app.use(require("./routes/register"));
