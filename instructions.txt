@@ -16,3 +16,5 @@ Backend
 
 - import that route in "server/index.js"
 	e.g  app.use(require("./routes/register"));
+
+- Add database tables in "server/models". Create a corresponding file and define models like "user.model.js"
