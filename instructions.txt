@@ -7,7 +7,7 @@ Frontend
 	e.g. import Register from "./components/Register";
 
 - Add the route in "client/src/App.js"
-	e.g. <Route path="/register" exact element={<Register />} />
+	e.g. <Route path="/register" element={<Register />} />
 
 Backend
 ----------------------------

@@ -12,6 +12,7 @@ app.use(express.json());
 // import routes
 app.use(require("./routes/register"));
 // app.use(require("./routes/login"));
+app.use(require("./routes/books"))
 
 // home page of server
 app.get('/', (req, res) => {
