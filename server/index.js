@@ -16,7 +16,7 @@ app.use(require("./routes/books"))
 
 // home page of server
 app.get('/', (req, res) => {
-    res.send("Haha Vodox");
+    res.send("BookFlix");
 });
 
 // connecting to database
